@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Sansita&display=swap" rel="stylesheet">
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <!-- Normal Css -->
+    <link rel="stylesheet" href="">
+    <title>SpaceX</title>
+    <style>
+      body {
+  background: #353b48;
+  font-family: 'Sansita', sans-serif;
+}
+
+.navbar {
+  background: #353b48 !important;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  margin-left: .1rem;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  color: #2ecc71 !important;
+}
+
+.navbar-brand:hover {
+  color: #fff  !important;
+  -webkit-transform: translateY(-2%);
+          transform: translateY(-2%);
+}
+
+.navbar-nav li a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #ecf0f1 !important;
+  background: #19425d;
+  border-radius: 5rem;
+  padding: 0rem 1.5rem !important;
+  margin: 0 .8rem;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+}
+
+.navbar-nav li a:hover {
+  -webkit-transform: translateY(8%);
+          transform: translateY(8%);
+  background: #2980b9;
+}
+
+.detail {
+  margin-top: 2rem;
+}
+
+.detail h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.detail h2 {
+  color: #00a8ff;
+  font-size: 1.5rem;
+}
+
+.detail hr {
+  width: 11rem;
+  margin-left: 0;
+  border-bottom: .2rem solid #00a8ff;
+}
+
+.detail p {
+  font-size: 1.4rem;
+  padding: 1rem 0;
+  color: #fff;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.detail .btn1 {
+  font-size: 1.4rem;
+  border: 1px solid #2c3e50;
+  color: #ecf0f1 !important;
+  background: #2c3e50;
+  padding: .2rem 1.8rem !important;
+  margin: 0 .8rem;
+  background: #2980b9;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+  border-radius: 5rem;
+}
+
+.detail .btn2 {
+  font-size: 1.4rem;
+  border: 1px solid #487eb0;
+  color: #ecf0f1 !important;
+  padding: .2rem 1.6rem !important;
+  margin: 0 .8rem;
+  -webkit-transition: all .1s linear;
+  transition: all .1s linear;
+  border-radius: 5rem;
+}
+
+.btn1:hover {
+  -webkit-transform: translateY(8%);
+          transform: translateY(8%);
+  border: 1px solid #2980b9;
+}
+
+.btn2:hover {
+  -webkit-transform: translateY(8%);
+          transform: translateY(8%);
+  background: #2980b9;
+  border: 1px solid #2980b9;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.list li {
+  color: rgb(0, 255, 0);
+  list-style: none;
+  margin: 0 .4rem;
+  font-size: 1.7rem;
+  border: .1rem solid #fff;
+  border-radius: 50%;
+  width: 2.7rem;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: all .3s linear;
+  transition: all .3s linear;
+}
+
+.list li:first-child {
+  margin-left: 0;
+}
+
+.list li:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar-brand {
+    font-size: 2.6rem;
+  }
+  .navbar-collapse ul li a {
+    color: #fff !important;
+    background: transparent;
+    margin: .4rem auto;
+    text-align: center;
+    padding: .5rem 0;
+  }
+  .navbar-nav li a:hover {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+    background: #45aaf2;
+    border: none;
+  }
+  .detail {
+    margin-top: 1rem;
+  }
+  .detail h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  .detail h2 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .detail hr {
+    margin: 1rem auto;
+    width: 13rem;
+  }
+  .detail p {
+    margin: 1rem 1.6rem;
+  }
+  .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .image {
+    overflow: hidden;
+  }
+  .image img {
+    height: 100%;
+    width: 100%;
+  }
+  .button_both {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/*# sourceMappingURL=one.css.map */
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="container two">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="#">SpaceX</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      </div>
+      <!-- section 2 -->
+
+      <div class="container one">
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="detail">
+                  <h1>Welcome</h1>
+                  <h2>To SpaceX World</h2>
+                  <hr>
+                  <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam magnam maiores eos consequuntur commodi! Voluptate magnam vel omnis odio, commodi id Iusto ullam minima architecto sint!</p>
+                  <div class="button_both">
+                    <button class="btn btn1 pl-0">EXPLORE</button>
+                    <button class="btn btn2 pl-0">WATCH US</button>
+                    </div>
+                  <ul class="list ml-0 pl-4" >
+                      <li><i class="fab fa-facebook-f"></i></li>
+                      <li><i class="fab fa-instagram"></i></li>
+                      <li><i class="fab fa-twitter"></i></li>
+                      <li><i class="fab fa-linkedin-in"></i></li>
+                  </ul>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="image">
+                    <img src="img2.png" alt="img2" class="">
+                </div>
+              </div>
+          </div>
+      </div>
+
+
+
+    <!-- js bundle -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
